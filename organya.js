@@ -16,11 +16,6 @@
                 throw "Invalid magic.";
             }
 
-            //const orgVersion = view.getUint16(p, true); p += 2;
-            //if (orgVersion != 0x3631) {
-                //throw "Not ORG16."; // welcome back!! - dr. ragtime
-            //}
-			
             const orgVersion = view.getUint16(p, true); p += 2;
             if (orgVersion != 0x3230 && orgVersion != 0x3330) { //"02" or "03"
                 throw "Invalid version.";
