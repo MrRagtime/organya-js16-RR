@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Organya16 Web Player</title>
+    <title>Organya Robenge Web Player</title>
     <link rel="icon" type="image/x-icon" href="https://realtrashbin.github.io/organya-js16/OrgUI/icon1.ico">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <style>
@@ -57,9 +57,11 @@
     <script src="organya-ui.js?cache_bust=1"></script>
     <script>
         (() => {
-            const songs = `Bi_N/JavaScript.org16
-Bi_N/Escaping The Prison 2.org16
-Bi_N/Balrog's ThemeV2.org16`.split("\n").sort();
+            const songs = `daniel_r._brown/Black Magica.org
+daniel_r._brown/Dark Magica.org
+daniel_r._brown/Pier Walk Arr..org
+daniel_r._brown/Arcadia.org
+daniel_r._brown/Crackdown.org`.split("\n").sort();
 
             const songListEl = document.getElementById("songs");
             for (let song of songs) {
@@ -94,7 +96,7 @@ Bi_N/Balrog's ThemeV2.org16`.split("\n").sort();
             window.play = async () => {
                 stop();
 
-                console.log("fetching song...");
+                console.log("fetching pieces...");
                 const res = await fetch(songListEl.options[songListEl.selectedIndex].value);
                 const data = await res.arrayBuffer();
                 await initOrganya();
