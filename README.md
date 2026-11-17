@@ -14,7 +14,7 @@ A tiny and accurate player for Organya and Organya16 music files.
 
 **[Organya-js16-RR](https://github.com/MrRagtime/organya-js16-RR)** is a fork of Organya-js16 which include some tracks from [Robot's Revenge](https://sites.google.com/view/projectemissaryplus/ProjectEmissaryPlus/CaveStory/RR) by Dr. Ragtime, & DavyBackDead.
 
-- See the demo: https://RESERVED/organya-js16
+- See the demo: https://mrragtime.github.io/organya-js16-RR
 
 ## About Repository
 
