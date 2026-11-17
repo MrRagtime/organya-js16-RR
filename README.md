@@ -1,14 +1,20 @@
-# Organya-JS16
+# Organya-JS16-RR
 
-**Forked from [Organya-js](https://github.com/alula/organya-js) by alula**
+**Forked from [Organya-js16](https://github.com/realtrashbin/organya-js16) by Trashbin**
 
 A tiny and accurate player for Organya and Organya16 music files.
 
+# Info
+
 **Organya** is a chiptune music format created by [Daisuke "Pixel" Amaya](https://twitter.com/oxizn), meant for use in his [Cave Story](https://cavestory.org) game.
 
-**Organya16** is an extension of Organya that adds 16 more tracks and was created by me: Bi_N. Made because I thought 8 tracks were too limiting.
+**[Organya-js](https://github.com/alula/organya-js)** is an accurate 250 SLoC JavaScript Organya player using Web Audio API, which was created by Alula.
 
-See the demo: https://realtrashbin.github.io/organya-js16/
+**[Organya-js16](https://github.com/realtrashbin/organya-js16)** is a extension of Organya-js that added 16 more tracks and was created by Trashbin.
+
+**[Organya-js16-RR](https://github.com/MrRagtime/organya-js16-RR)** is a fork of Organya-js16 which include some tracks from [Robot's Revenge](https://sites.google.com/view/projectemissaryplus/ProjectEmissaryPlus/CaveStory/RR) by Dr. Ragtime, & DavyBackDead.
+
+- See the demo: https://RESERVED/organya-js16
 
 ## About Repository
 
