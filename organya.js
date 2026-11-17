@@ -21,6 +21,11 @@
                 throw "Invalid version.";
             }
 
+            const orgVersion = view.getUint16(p, true); p += 2;
+            if (orgVersion != 0x3631) {
+                throw "Not ORG16.";
+            }
+			
             this.wait = view.getUint16(p, true); p += 2;
             this.meas = [view.getUint8(p++, true), view.getUint8(p++, true)];
             this.start = view.getInt32(p, true); p += 4;
